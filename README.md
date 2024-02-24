@@ -17,7 +17,7 @@ For more information about the above command, please see the [RUST website](http
 ### 2. Emacs Configuration
 - Install build-essential:
   ```sh
-  sudo apt install build-essential -y
+  sudo apt install build-essential git -y
   ```
 - Install `RUST` source code:
   ```sh
