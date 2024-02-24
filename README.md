@@ -15,6 +15,10 @@ rustc --version
 For more information about the above command, please see the [RUST website](https://www.rust-lang.org/tools/install).
 
 ### 2. Emacs Configuration
+- Install build-essential:
+```sh
+sudo apt install build-essential -y
+```
 - Install `RUST` source code:
   ```sh
   rustup component add rust-src
