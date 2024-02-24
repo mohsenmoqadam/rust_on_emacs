@@ -33,7 +33,9 @@ For more information about the above command, please see the [RUST website](http
         ("melpa" . "https://melpa.org/packages/")))
   ```
 - Install Emacs packages: `use-package`, `rustic`, `lsp-mode`, `company`, `yasnippet`, `flycheck`
+
   `M-x`: As you know, On Debian, first press `Esc` and then press `x`.
+  
   `↩`: Is the Enter Key.
   ```emacs
   M-x package-refresh-contents ↩
