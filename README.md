@@ -61,4 +61,7 @@ cargo new hello_world
 cd hello_world/
 emacs -nw src/main.rs
 ```
-For the first time, wait a while for Emacs to be ready to use.
+For the first time, wait a while for Emacs to be ready to use (depending on your interned speed).
+
+and the final result😋:
+![Screenshot](https://github.com/mohsenmoqadam/rust_on_emacs/blob/main/emacs.jpg)
