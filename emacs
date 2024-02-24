@@ -1,6 +1,6 @@
-;;(setq package-archives                                                                                                                                                                                     
-;;      '(("gnu" . "https://elpa.gnu.org/packages/")                                                                                                                                                          
-;;        ("melpa" . "https://melpa.org/packages/"))) 
+(setq package-archives
+    '(("gnu" . "https://elpa.gnu.org/packages/")
+      ("melpa" . "https://melpa.org/packages/")))
 
 ;; When using this directly, you will need to have use-package installed:
 ;; M-x package-install, select use-package. But if you start via
