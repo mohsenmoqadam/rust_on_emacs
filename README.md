@@ -48,7 +48,7 @@ For more information about the above command, please see the [RUST website](http
   ```
 - Update `~/.emacs`: add the below configuration to your `.emacs`.
   
-  copy [this file](https://github.com/mohsenmoqadam/rust_on_emacs/blob/main/emacs) to your `~/.emacs`
+  copy [this file](https://github.com/mohsenmoqadam/rust_on_emacs/blob/main/.emacs) to your `~/.emacs`
 
 ### 3. Create an example and check your emacs:
 ```sh
