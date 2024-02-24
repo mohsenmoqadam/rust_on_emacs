@@ -47,7 +47,7 @@ For more information about the above command, please see the [RUST website](http
   M-x package-install ↩ flycheck ↩
   M-x package-install ↩ treemacs ↩
   ```
-- Update `~/.emacs`: add the below configuration to your `.emacs`.
+- Update `~/.emacs`:
   
   copy [this file](https://github.com/mohsenmoqadam/rust_on_emacs/blob/main/.emacs) to your `~/.emacs`
 
