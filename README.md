@@ -19,16 +19,19 @@ For more information about the above command, please see the [RUST website](http
   ```sh
   sudo apt install build-essential git -y
   ```
+  
 - Install `RUST` source code:
   ```sh
   rustup component add rust-src
   ```
+  
 - Install `rust-analyzer server`:
   ```sh
   git clone https://github.com/rust-analyzer/rust-analyzer.git -b release
   cd rust-analyzer
   cargo xtask install --server
   ```
+  
 - update `~/.emacs`:
   Add the below configuration to your `.emacs`:
   ```emacs
@@ -36,15 +39,18 @@ For more information about the above command, please see the [RUST website](http
       '(("gnu" . "https://elpa.gnu.org/packages/")
         ("melpa" . "https://melpa.org/packages/")))
   ```
+  
 - Install Emacs packages: `use-package`
 
   `M-x`: As you know, On Debian, first press `Esc` and then press `x`.
   
   `↩`: Is the Enter Key.
+  
   ```emacs
   M-x package-refresh-contents ↩
   M-x package-install ↩ use-package ↩
   ```
+  
 - Update `~/.emacs`:
   
   copy [this file](https://github.com/mohsenmoqadam/rust_on_emacs/blob/main/.emacs) to your `~/.emacs`
