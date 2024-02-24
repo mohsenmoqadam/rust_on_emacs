@@ -32,7 +32,7 @@ For more information about the above command, please see the [RUST website](http
       '(("gnu" . "https://elpa.gnu.org/packages/")
         ("melpa" . "https://melpa.org/packages/")))
   ```
-- Install Emacs packages: `use-package`, `rustic`, `lsp-mode`, `company`, `yasnippet`, `flycheck`
+- Install Emacs packages: `use-package`, `rustic`, `lsp-mode`, `company`, `yasnippet`, `flycheck`, `treemacs`
 
   `M-x`: As you know, On Debian, first press `Esc` and then press `x`.
   
@@ -45,6 +45,7 @@ For more information about the above command, please see the [RUST website](http
   M-x package-install ↩ company ↩
   M-x package-install ↩ yasnippe ↩
   M-x package-install ↩ flycheck ↩
+  M-x package-install ↩ treemacs ↩
   ```
 - Update `~/.emacs`: add the below configuration to your `.emacs`.
   
