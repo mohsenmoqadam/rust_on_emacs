@@ -6,7 +6,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 After installation, run the below command:
 ```sh
-source "$HOME/.cargo/env
+source "$HOME/.cargo/env"
 ```
 And then check the `RUST` version by below command:
 ```sh
