@@ -3,6 +3,11 @@
       ("melpa" . "https://melpa.org/packages/")))
 
 
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
 
 
